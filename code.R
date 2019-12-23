@@ -43,3 +43,7 @@ names(mtcars)
 model <- lm(mpg ~ disp + hp + wt + qsec, data = mtcars)
 ols_plot_cooksd_bar(model)
 
+ols_plot_cooksd_chart(model)
+
+ols_plot_dfbetas(model)
+
